@@ -1,0 +1,23 @@
+data type :-
+
+	1) in-built  - c
+	2) user define
+	3) derived
+
+	short int - 1   [8 bit] -128 0 127
+	int  -   2   whole numbers [16] -32768 0 32767
+	long int 4   whole number [32] -2147483648 0 2147483647
+	float -  4 fraction real decimal
+	double - 8  fraction real decimal
+	char  - 1  character -> single quote -> 'a'
+
+	int    20  %d
+	float  20.20  %f
+	char  'a'     %c
+
+
+	  //emulator
+	gcc->code -> notepad -> gcc
+		     vscode  -> gcc
+		     codebloc-> gcc
+		     devc++  -> gcc
