@@ -1,23 +1,60 @@
-data type :-
+operator:- 
 
-	1) in-built  - c
-	2) user define
-	3) derived
+1) Arithmetic operator :-
+        +   -    *    /     %(modulo)
 
-	short int - 1   [8 bit] -128 0 127
-	int  -   2   whole numbers [16] -32768 0 32767
-	long int 4   whole number [32] -2147483648 0 2147483647
-	float -  4 fraction real decimal
-	double - 8  fraction real decimal
-	char  - 1  character -> single quote -> 'a'
+        a = 10
+        b = 2 
 
-	int    20  %d
-	float  20.20  %f
-	char  'a'     %c
+        a/b => 5 [Q]
+        a%b => 0 [R]
+
+2) Relation  operator :- 
+    
+    >   <   >=   <=   ==[comparision]   != 
+    a = 10 
+    b = 20 
+    a > b 
+    a == b 
+
+3) logical 
+    &&  AND 
+    ||  OR 
+     !  NOT 
+
+   maths > 60 
+   eng   > 80 
+
+    maths > 60 && eng > 55 
+    maths > 60 || eng > 55 
+
+   maths = 95 
+   eng = 55   
+
+   ! maths > 60  
+
+4) bit wise
+
+5) increment  decrement  
+    i = 10 
+    i = i + 1 ;  // i++ post increment 
+    i--; // decrease 1 value  post decrement
+    i = i - 1; 
 
 
-	  //emulator
-	gcc->code -> notepad -> gcc
-		     vscode  -> gcc
-		     codebloc-> gcc
-		     devc++  -> gcc
+    i=10;
+    ++i; //pre 
+    --i; //pre 
+
+6) misc 
+    , 
+    ? -> ternary -> condition 
+    condition ? true : false 
+    sizeof -> size  
+
+
+
+
+
+
+

@@ -31,5 +31,25 @@ int main(int argc, char const *argv[])
     ans = !(a > b);//1 =>  0
     printf("\n !(a>b) => %d ",ans);     
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }
